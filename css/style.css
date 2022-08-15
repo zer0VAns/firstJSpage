@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Rubik+Marker+Hatch&display=swap');
 body{
   background-color: #766fb3;
 }
@@ -44,8 +44,8 @@ body{
 #prod{
   position: relative;
   text-align: center;
-  margin-top: 30px;
-  font-family: 'Rubik Marker Hatch', cursive;
+  margin-top: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 #prod::before {
   transform: scaleX(0);

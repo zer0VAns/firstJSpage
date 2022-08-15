@@ -14,12 +14,9 @@ class ElementoCarrito {
     }
 }
 
-/**
- * Definiciones de constantes
- */
 const estandarDolaresAmericanos = Intl.NumberFormat('en-US');
 
-//Arrays donde guardaremos catálogo de productos y elementos en carrito
+//Arrays 
 const productos = [];
 const elementosCarrito = [];
 
@@ -29,18 +26,14 @@ const contenedorCarritoCompras = document.querySelector("#items")
 
 const contenedorFooterCarrito = document.querySelector("#footer");
 
-/**
- * Ejecución de funciones
- */
+// Ejecucion
 
 cargarProductos();
 cargarCarrito();
 dibujarCarrito();
 dibujarCatalogoProductos();
 
-/**
- * Definiciones de funciones
- */
+ // Definicion
 
 function cargarProductos() {
     productos.push(new Producto(1, 'Stratocaster Standar', 150, './img/electrica.jpg'));
